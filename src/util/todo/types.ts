@@ -1,5 +1,6 @@
 export interface todo {
+  id: number;
   title: string;
-  due_on: string;
-  done: boolean;
+  due_on: Date;
+  is_done: boolean;
 }

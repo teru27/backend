@@ -9,9 +9,10 @@ export class TodoService {
   getList(): todo[] {
     return [
       {
-        title: '牛乳を買いに行く',
-        due_on: '2022-12-24',
-        done: false,
+        id: 1,
+        title: 'test',
+        due_on: new Date(),
+        is_done: true,
       },
     ];
   }
